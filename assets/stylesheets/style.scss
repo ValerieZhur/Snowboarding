@@ -61,7 +61,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   width: 100%;
-  max-width: 1400px;
   padding: 0 15px;
   margin:0 auto;
 }
@@ -77,15 +76,16 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 649px;
   position: relative;
-  @include background-size(cover);
 }
 
 .slide-one {
   background: url("../images/intro_bg2.jpg") center no-repeat;
+  @include background-size(cover);
 }
 
 .slide-two{
   background: url("../images/intro_bg.jpg") center no-repeat;
+  @include background-size(cover);
   .intro_title {
     color: $black;
   }

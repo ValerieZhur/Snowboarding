@@ -75,7 +75,6 @@ h1, h2, h3, h4, h5, h6 {
 ========================================================================== */
 .container {
   width: 100%;
-  max-width: 1400px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -90,6 +89,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 649px;
   position: relative;
+}
+
+.slide-one {
+  background: url("../images/intro_bg2.jpg") center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -97,12 +100,13 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
-.slide-one {
-  background: url("../images/intro_bg2.jpg") center no-repeat;
-}
-
 .slide-two {
   background: url("../images/intro_bg.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .slide-two .intro_title {
   color: #000;
