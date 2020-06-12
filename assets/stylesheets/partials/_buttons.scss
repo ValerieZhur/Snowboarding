@@ -1,0 +1,21 @@
+
+/* button */
+
+.btn {
+
+  display: inline-block;
+  text-decoration: none;
+  color: $white;
+  text-transform: uppercase;
+  font-family: $font-title;
+  font-size: $font-size-text;
+  padding: 16px 32px;
+  background-color: $black;
+  transition: background .2s linear,
+  color .2s linear;
+  cursor: pointer;
+  &:hover {
+    color: $black;
+    background-color: $white;
+  }
+}

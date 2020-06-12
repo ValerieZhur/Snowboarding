@@ -1,0 +1,233 @@
+@media (max-width: 990px) {
+  /* Intro */
+  .intro_inner {
+    margin-left: 270px;
+    margin-top: 150px;
+  }
+
+  .intro_title {
+    font-size: 70px;
+  }
+
+  .intro_btn {
+    padding-top: 35px;
+    padding-left: 310px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 12px 24px;
+  }
+
+  /* Slider */
+  .slick-prev {
+    margin-left: 20px;
+  }
+
+  .slick-next {
+    margin-right: 20px;
+  }
+
+  /* Company */
+  .company {
+    height: auto;
+  }
+
+  .company_info {
+    max-width: 500px;
+    margin-top: 100px;
+  }
+
+  .company_title {
+    font-size: 44px;
+  }
+
+  /* Features */
+  .features_item {
+    padding-left: 10px;
+  }
+
+  /* Footer */
+  .footer_col {
+    padding-left: 80px;
+  }
+
+  /* footer_bottom */
+  .copyright {
+    margin-left: 30px;
+  }
+
+  .change_region {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 770px) {
+  /* Intro */
+  .intro_title {
+    font-size: 50px;
+  }
+
+  .intro_inner {
+    margin-left: 170px;
+  }
+
+  .intro_btn {
+    padding-top: 35px;
+    padding-left: 190px;
+  }
+
+  /* Header */
+  .header_logo {
+    margin-top: -16px;
+  }
+
+  .header_logo img {
+    width: 60%;
+    height: 60%;
+  }
+
+  /* Nav */
+  .nav {
+    opacity: 0;
+    -webkit-transition: visibility 0.5s linear 0s, height 0.3s, opacity 0.5s;
+    -moz-transition: visibility 0.5s linear 0s, height 0.3s, opacity 0.5s;
+    -ms-transition: visibility 0.5s linear 0s, height 0.3s, opacity 0.5s;
+    -o-transition: visibility 0.5s linear 0s, height 0.3s, opacity 0.5s;
+    transition: visibility 0.5s linear 0s, height 0.3s, opacity 0.5s;
+    visibility: collapse;
+    height: 0;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: #000;
+  }
+
+  .nav.active {
+    opacity: 0.9;
+    height: 170px;
+    visibility: visible;
+  }
+
+  .nav_link {
+    display: block;
+    margin: 0;
+    padding: 5px 20px;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  /* Slider */
+  .shop_title,
+.features_title h2 {
+    font-size: 40px;
+  }
+
+  .slick-arrow:after {
+    width: 80px;
+    height: 80px;
+    border-top: 6px solid #bfbfbf;
+    border-left: 6px solid #bfbfbf;
+  }
+
+  .slick-slide img {
+    width: 60%;
+  }
+
+  .shop_text {
+    font-size: 20px;
+  }
+
+  /* Company */
+  .company_info {
+    max-width: 400px;
+  }
+
+  .company_title {
+    font-size: 40px;
+  }
+
+  .company_text {
+    font-size: 14px;
+  }
+
+  /* Footer */
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
+  .footer_col {
+    width: 50%;
+    padding-left: 10px;
+  }
+  .footer_col:first-of-type {
+    padding-left: 10px;
+  }
+
+  /* Social */
+  .social {
+    display: block;
+    margin-top: 35px;
+  }
+
+  .social_item {
+    padding-right: 30px;
+  }
+
+  /* footer_bottom */
+  .footer_bottom {
+    margin-right: 215px;
+  }
+
+  .copyright {
+    margin: 0;
+  }
+}
+@media (max-width: 575px) {
+  /* Intro */
+  .intro_inner {
+    margin: 0 auto;
+  }
+
+  .intro_title {
+    font-size: 40px;
+  }
+
+  /* Header */
+  .header_logo {
+    margin-left: 20px;
+  }
+
+  /* Slider */
+  .shop_title,
+.company_title,
+.features_title {
+    font-size: 35px;
+  }
+
+  /* Company */
+  .company_info {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  /* Footer */
+  .footer_col {
+    width: 100%;
+  }
+
+  .footer_bottom {
+    display: block;
+    margin-right: 0;
+  }
+
+  .region {
+    padding-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
